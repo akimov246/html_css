@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблицы</title>
+</head>
+<body>
+    <table> <!-- Таблица -->
+        <tr><!-- Строка таблицы (table row)-->
+            <td>Ячейка таблицы 1</td> <!-- Ячейка таблицы (table data) -->
+            <td>Ячейка таблицы 2</td>
+            <td>Ячейка таблицы 3</td>
+        </tr>
+        <tr>
+            <td>Ячейка таблицы 4</td>
+            <td>Ячейка таблицы 5</td>
+            <td>Ячейка таблицы 6</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <tr>
+            <th></th> <!-- Пустой заголовок (table heading)-->
+            <th scope="col">Заголовок столбца 1</th>
+            <th scope="col">Заголовок столбца 2</th>
+        </tr>
+        <tr>
+            <th scope="row">Заголовок строки 1</th>
+            <td>Ячейка 1</td>
+            <td>Ячейка 2</td>
+        </tr>
+        <tr>
+            <th scope="row">Заголовок строки 2</th>
+            <td>Ячейка 3</td>
+            <td>Ячейка 4</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Заголовок столбца 1</th>
+            <th scope="col">Заголовок столбца 2</th>
+            <th scope="col">Заголовок столбца 3</th>
+            <th scope="col">Заголовок столбца 4</th>
+        </tr>
+        <tr>
+            <th scope="row">Заголовок строки 1</th>
+            <td colspan="2">Ячейка, занимающая 2 столбца</td>
+            <td>Ячейка</td>
+            <td>Ячейка</td>
+        </tr>
+        <tr>
+            <th scope="row">Заголовок строки 2</th>
+            <td colspan="3">Ячейка, занимающая 3 столбца</td>
+            <td>Ячейка</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Заголовок столбца 1</th>
+            <th scope="col">Заголовок столбца 2</th>
+            <th scope="col">Заголовок столбца 3</th>
+        </tr>
+        <tr>
+            <th>Заголовок строки 1</th>
+            <td rowspan="2">Ячейка, занимающая 2 строки</td>
+            <td>Ячейка</td>
+            <td>Ячейка</td>
+        </tr>
+        <tr>
+            <th>Заголовок строки 2</th>
+            <td>Ячейка</td>
+            <td>Ячейка</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Теги border и bgcolor - устаревшие, их не рекомендуется использовать. Вместо них используется CSS -->
+    <table border="5" bgcolor="#efefef">
+        <thead> <!-- Заголовки таблицы должны быть помещены в элемент <thead> -->
+            <tr bgcolor="#abcdefg">
+                <th bgcolor="#efefef"></th>
+                <th>Заголовок столбца 1</th>
+                <th>Заголовок столбца 2</th>
+            </tr>
+        </thead>
+        <tbody> <!-- Основное содержимое (тело) таблицы должно находиться внутри элемента <tbody> -->
+            <tr>
+                <th bgcolor="red">Заголовок строки 1</th>
+                <td>Ячейка 1</td>
+                <td>Ячейка 2</td>
+            </tr>
+            <tr>
+                <th bgcolor="blue">Заголовок строки 2</th>
+                <td>Ячейка 3</td>
+                <td>Ячейка 4</td>
+            </tr>
+            <tr>
+                <th bgcolor="green">Заголовок строки 3</th>
+                <td>Ячейка 5</td>
+                <td>Ячейка 6</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- Последняя, завершающая строка таблицы должна быть указана внутри элемента <tfoot> -->
+            <tr>
+                <th bgcolor="pink">Заголовок строки 4</th>
+                <td>Ячейка 7</td>
+                <td>Ячейка 8</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
