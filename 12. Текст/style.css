@@ -1,0 +1,183 @@
+body {
+    font-family: -apple-system, Times, "Times New Roman", Georgia, serif;
+    background-color: #EDEDED;
+    margin: 10px;
+}
+
+.chapter {
+    background-color: white;
+    border: 0.5px solid red;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Comic Sans MS";
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: blue;
+}
+
+h3~p b {
+    color: blue;
+}
+
+li b {
+    color: blue;
+}
+
+@font-face {
+    font-family: 'slav-font';
+    src: url("fonts/slav_font.ttf");
+    format("truetype");
+}
+
+.slav {
+    font-family: slav-font;
+    font-size: 32px;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.text-decoration {
+    text-decoration: green wavy underline;
+}
+
+.line-height {
+    line-height: 3em;
+}
+
+.spacing {
+    letter-spacing: 0.3em;
+    word-spacing: 2em;
+}
+
+.text-align {
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    margin: 1px;
+}
+
+.baseline {
+    vertical-align: baseline;
+}
+
+.sub {
+    vertical-align: text-top;
+}
+
+.super {
+    vertical-align: super;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.text-top {
+    vertical-align: text-top;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.bottom {
+    vertical-align: bottom;
+}
+
+.text-bottom {
+    vertical-align: text-bottom;
+}
+
+.text-indent {
+    text-indent: 70px;
+}
+
+.text-shadow {
+    text-shadow: 10px 10px 3px yellow;
+}
+
+.first:first-letter {
+    font-size: 300%;
+}
+
+.first:first-line {
+    text-shadow: 3px 3px pink;
+}
+
+.first:hover {
+    background-color: cornsilk;
+}
+
+.link_visited a:link {
+    color: red;
+    text-decoration: none;
+}
+
+.link_visited a:visited {
+    color: orange;
+    text-decoration: underline;
+}
+
+.link_visited a span {
+    position: absolute;
+    visibility: hidden;
+}
+
+.link_visited a:hover span {
+    visibility: visible;
+}
+
+.hover_active_focus input {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid brown;
+    margin-bottom: 10px;
+}
+
+.hover_active_focus input[type="submit"]:hover {
+    background-color: pink;
+}
+
+.hover_active_focus input[type="submit"]:active {
+    background-color: chocolate;
+}
+
+.hover_active_focus input[type="text"] {
+    color: aqua;
+}
+
+.hover_active_focus input[type="text"]:focus {
+    color: blue;
+}
+
+table {
+    margin-bottom: 10px;
+}
