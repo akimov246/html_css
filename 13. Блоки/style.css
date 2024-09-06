@@ -1,0 +1,142 @@
+body {
+    font-family: -apple-system, Times, "Times New Roman", Georgia, serif;
+    background-color: #EDEDED;
+    margin: 10px;
+}
+
+.chapter {
+    background-color: white;
+    border: 0.5px solid red;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Comic Sans MS";
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: blue;
+}
+
+h3~p b {
+    color: blue;
+}
+
+li b {
+    color: blue;
+}
+
+div.width_height {
+    width: 900px;
+    height: 300px;
+    background-color: pink;
+}
+
+div.width_height p {
+    width: 75%;
+    height: 25%;
+    background-color: gray;
+}
+
+div.min-max-width {
+    min-width: 300px;
+    max-width: 700px;
+}
+
+div.min-max-height {
+    min-height: 150px;
+    max-height: 200px;
+}
+
+img {
+    width: 400px;
+}
+
+div.overflow {
+    max-height: 245px;
+    overflow: scroll;
+}
+
+div.border {
+    border-width: 10px 20px 30px 40px;
+}
+
+div.border-style {
+    border-width: 5px;
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: hidden;
+}
+
+div.border-color {
+    border-width: 5px;
+    border-color: yellow orange orangered red;
+}
+
+div.border {
+    border: 10px double purple;
+}
+
+div.padding {
+    padding: 10px 55px 10px 55px;
+}
+
+div.margin {
+    margin: 30px;
+}
+
+div.center, div.center img {
+    width: 500px;
+    margin: 5px auto 5px auto;
+}
+
+div.center p, div.center h2 {
+    text-align: center;
+}
+
+div.display img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+div.display img.hidden {
+    display: none;
+}
+
+div.visibility img.hidden {
+    visibility: hidden;
+}
+
+div.border-image {
+    border-width: 60px;
+    border-image: url('images/border.webp') 200 round;
+}
+
+div.border-image img {
+    width: 100px;
+}
+
+div.border-image div {
+    border-image: linear-gradient(blue, yellow);
+}
+
+div.box-shadow {
+    box-shadow: inset 0 0 30px yellowgreen;
+}
+
+div.border-radius {
+    border-radius: 20px 30px 40px 50px;
+}
+
+div.elliptical_shapes div{
+    display: inline-block;
+}
