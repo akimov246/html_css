@@ -1,0 +1,254 @@
+body {
+    font-family: -apple-system, Times, "Times New Roman", Georgia, serif;
+    background-color: #EDEDED;
+    margin: 10px;
+}
+
+.chapter {
+    background-color: white;
+    border: 0.5px solid red;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Comic Sans MS";
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: blue;
+}
+
+h3~p b {
+    color: blue;
+}
+
+li b {
+    color: blue;
+}
+
+.list-style-type ul {
+    list-style-type: "✡ ";
+}
+
+.list-style-type ol {
+    list-style-type: upper-roman;
+}
+
+.list-style-image ul li {
+    list-style: none;
+}
+
+.list-style-image ul li:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("images/dota2logo.png");
+    background-size: contain;
+}
+
+.list-style-position ul {
+    list-style-position: inside;
+}
+
+.list-style ul li{
+    list-style: none;
+}
+
+.list-style ul li:before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("images/biboran.png");
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.table table {
+    border: 5px solid pink;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 5px;
+}
+
+.table table td, .table table th{
+    border: 1px solid pink;
+    padding: 5px;
+}
+
+.table table tr:nth-child(odd) {
+    background-color: white;
+}
+
+.table table tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.table table th {
+    background-color: lightcyan;
+    font-style: oblique;
+}
+
+.table table tr:hover {
+    background-color: cornsilk;
+}
+
+.table table thead {
+    font-family: "Comic Sans MS";
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: left;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.empty-cells table {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.empty-cells table td {
+    border: 3px solid blueviolet;
+    padding: 5px;
+    font-size: 48px;
+}
+
+.empty-cells table#first_table {
+    empty-cells: show;
+}
+
+.empty-cells table#second_table {
+    empty-cells: hide;
+}
+
+.spacing-collapse table {
+    display: inline;
+    margin: 5px 50px 5px 5px;
+}
+
+.spacing-collapse table#first {
+    border-spacing: 5px 15px;
+}
+
+.spacing-collapse table#first td, .spacing-collapse table#second td{
+    background-color: dodgerblue;
+    padding: 15px;
+    border: 5px solid black;
+    font-size: 40px;
+}
+
+.spacing-collapse table#second {
+    border-collapse: collapse;
+}
+
+.input input {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 200%;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    vertical-align: middle;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+}
+
+.input input:focus {
+    background-color: #ffffff;
+    border: 1px solid #b1e1e4;
+}
+
+.input input#email {
+    background: white url("images/конверт.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    box-shadow: inset 0 0 5px black;
+}
+
+.input input#twitch {
+    background: white url("images/твитч.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    box-shadow: inset 0 0 5px black;
+}
+
+.input input#web {
+    background: white url("images/веб.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    box-shadow: inset 0 0 5px black;
+}
+
+.input label {
+    display: block;
+    float: left;
+    text-align: right;
+    width: 150px;
+    margin-right: 5px;
+}
+
+.submit input#submit {
+    color: #444444;
+    font-size: 30px;
+    text-shadow: 0px 3px 3px #ffffff;
+    border-bottom: 2px solid #b2b2b2;
+    background-color: #b9e4e3;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.submit input#submit:hover {
+    box-shadow: inset 0 0 10px yellowgreen;
+}
+
+fieldset {
+    width: 300px;
+    border: 1px solid deepskyblue;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;
+    font-size: 20px;
+    margin: 10px;
+}
+
+legend {
+    background-color: lightgray;
+    border: 1px solid deepskyblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.registration div.field {
+    padding-bottom: 5px;
+}
+
+.registration div.field label {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 15px;
+}
+
+.registration div.field input[type=submit] {
+    display: block;
+}
+
+img#alvin {
+    width: 500px;
+    cursor: url("images/heart.png"), pointer;
+}

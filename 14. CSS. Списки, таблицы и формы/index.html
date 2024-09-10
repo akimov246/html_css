@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Списки, таблицы и формы</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="chapter list-style-type">
+        <h2>Маркеры</h2>
+        <h3>Свойство list-style-type</h3>
+        <p>Свойство <b>list-style-type</b> позволяет выбрать форму или стиль маркера. Данное свойство может использоваться
+        в правилах, применяемых к элементам <b>&ltol&gt</b>, <b>&ltul&gt</b>, <b>&ltli&gt</b>.</p>
+
+        <h3>Неупорядоченные списки</h3>
+        <p>Для неупорядоченных (маркированных) списков вы можете использовать следующие значения:</p>
+        <ul>
+            <li><b>none</b>;</li>
+            <li><b>disc</b> ●;</li>
+            <li><b>circle</b> ○;</li>
+            <li><b>square</b> ■.</li>
+        </ul>
+
+        <h3>Упорядоченные списки</h3>
+        <p>Для упорядоченных (нумерованных) списков вы можете использовать следующие значения:</p>
+        <ol>
+            <li><b>decimal</b><br>
+            1 2 3;</li>
+            <li><b>decimal-leading-zero</b><br>
+            01 02 03;</li>
+            <li><b>lower-alpha</b><br>
+            a b c;</li>
+            <li><b>upper-alpha</b><br>
+            A B C;</li>
+            <li><b>lower-roman</b><br>
+            i ii iii;</li>
+            <li><b>upper-roman</b><br>
+            I II III;</li>
+        </ol>
+    </div>
+
+    <div class="chapter list-style-image">
+        <h2>Маркеры-изображения</h2>
+        <h3>Свойство list-style-image</h3>
+        <p>С помощью свойства <b>list-style-image</b> вы можете указать в качестве маркера изображение.</p>
+        <p>Значение начинается с фрагмента <b>url</b>, за которым следует пара скобок. Внутри скобок в двойных кавычках
+        указывается путь к изображению.</p>
+        <p>Данное свойство может использоваться в правилах, применяемых к элементам <b>&ltul&gt</b> и <b>&ltli&gt</b>.</p>
+        <ul>
+            <li>Axe</li>
+            <li>Chaos knight</li>
+            <li>Pudge</li>
+        </ul>
+    </div>
+
+    <div class="chapter list-style-position">
+        <h2>Позиционирование маркера</h2>
+        <h3>Свойство list-style-position</h3>
+        <p>Для списков по умолчанию создаются отступы, а свойство <b>list-type-position</b> указывает, должен ли маркер
+        располагаться внутри или снаружи блока, содержащего элементы списка.</p>
+        <p>Данное свойство  может принимать одно из двух значений.</p>
+        <ul>
+            <li><b>outside</b><br>
+            При этом маркер располагается слева от текстового блока (поведение по умолчанию, если данное свойство
+            не используется);</li>
+            <li><b>inside</b><br>
+            Маркер располагается внутри блока с текстом, для которого создан отступ.</li>
+        </ul>
+    </div>
+
+    <div class="chapter list-style">
+        <h2>Списки. Стенографическое свойство</h2>
+        <h3>Свойство list-style</h3>
+        <p>Так же, как в случае с некоторыми другими свойствами CSS, существует стенографическое свойство для оформления
+        списков - <b>list-style</b>. Оно позволяет в любом порядке указать маркеров, изображение и позиционирование.</p>
+        <img src="images/saint-biboran.jpg" alt="Священный Биборан" title="Священный Биборан">
+        <ul>
+            Заповеди Абдуловерования:
+            <li>Водка - одно здоровье</li>
+            <li>Сигареты - одно здоровье</li>
+            <li>МНЕ ПОХУЙ НА ЗАКОН!</li>
+            <li>Кара на педопедофилов вечная</li>
+            <li>Нет иного Богосатаны кроме Абдулова</li>
+            <li>Кара неизбежна. Неважно, когда она совершена</li>
+        </ul>
+    </div>
+
+    <div class="chapter table">
+        <h2>Свойства таблицы</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Свойство</th>
+                    <th>Действие</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>width</td>
+                <td>Устанавливает ширину таблицы</td>
+            </tr>
+            <tr>
+                <td>padding</td>
+                <td>Определяет расстояние между границей каждой ячейки и ее содержимым</td>
+            </tr>
+            <tr>
+                <td>text-transform</td>
+                <td>Используется для переключения регистра заголовков таблицы</td>
+            </tr>
+            <tr>
+                <td>letter-spacing,<br>font-size</td>
+                <td>Добавляют дополнительные стили к заголовкам таблицы</td>
+            </tr>
+            <tr>
+                <td>border-top,<br>border-bottom</td>
+                <td>Добавляют границы над и под заголовками таблицы</td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>Выравнивает текст в ячейках</td>
+            </tr>
+            <tr>
+                <td>background-color</td>
+                <td>Заменяет фоновый цвет </td>
+            </tr>
+            <tr>
+                <td>:hover</td>
+                <td>Выделяет строку таблицы при наведении на нее мышкой</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="chapter empty-cells">
+        <h2>Границы пустых ячеек</h2>
+        <h3>Свойство empty-cells</h3>
+        <p>Если в вашей таблице есть пустые ячейки, то вы можете использовать свойство <b>empty-cells</b>, чтобы указать,
+        следует ли отображать их границы. Оно может принимать одно из трех знаений.</p>
+        <ul>
+            <li><b>show</b><br>
+            При использовании этого значения границы пустых ячеек отображаются;</li>
+            <li><b>hide</b><br>
+            При использовании этого значения границы пустых ячеек скрываются;</li>
+            <li><b>inherit</b><br>
+            Если одна таблица вложена в другую, то данное значение приводит к тому, что к ячейкам вложенной таблицы
+            применяются правила содержащей их таблицы.</li>
+        </ul>
+        <p>При одновременном добавлении к таблице свойства <b>border-collapse</b> со значением <b>collapse</b>, свойство
+        <b>empty-cells</b> игнорируется.</p>
+        <table id="first_table">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <table id="second_table">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="chapter spacing-collapse">
+        <h2>Интервал между ячейками</h2>
+        <h3>Свойство border-spacing</h3>
+        <p>Свойство <b>border-spacing</b> позволяет настраивать расстояние между соседними ячейками. По умолчанию браузеры
+        обычно оставляют небольшой интервал между ячейками таблицы, и, чтобы увеличить или уменьшить его, вы можете
+        использовать свойство <b>border-spacing</b>.</p>
+        <p>Значение этого свойства обычно задается в пикселях. Вы можете указать два значения, если хотите отдельно настроить
+        горизонтальные и вертикальные интервалы.</p>
+        <h3>Свойство border-collapse</h3>
+        <p>Если для ячеек таблицы задана граница, то в местах соприкосновения ячеек линия будет в два раза толще, чем по
+        краям таблицы.</p>
+        <p>Чтобы предотвратить это, следует использовать свойство <b>border-collapse</b>. Свойство может принимать следующие
+        значения.</p>
+        <ul>
+            <li><b>collapse</b><br>
+            При использовании данного значения границы сливаются в одну (ячейки будут сдвинуты, а свойства <b>border-spacing</b>
+            и <b>empty-cells</b> -проигнорированы);</li>
+            <li><b>separate</b><br>
+            Границы отделяются друг от друга. (Свойства <b>border-spacing</b> и <b>empty-cells</b> выполняются).</li>
+        </ul>
+
+        <table id="first">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+
+        <table id="second">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="chapter input">
+        <h2>Стилизация полей ввода</h2>
+        <label for="email">Электронная почта: </label>
+        <input id="email" type="text">
+
+        <label for="twitch">twitch: </label>
+        <input id="twitch" type="text">
+
+        <label for="web">WEB: </label>
+        <input id="web" type="text">
+    </div>
+
+    <div class="chapter submit">
+        <h2>Стилизация кнопок подтверждения</h2>
+        <input id="submit" type="submit">
+    </div>
+
+    <div class="chapter">
+        <h2>Стилизация элементов fieldset и legend</h2>
+        <p>Элемент <b>fieldset</b> особенно полезен при определении границ формы. В случае с длинной формой с помощью него
+        вы можете группировать связанные данные.</p>
+        <p>Элемент <b>legend</b> используется для добавления к группе элементов информации.</p>
+        <p>Обычно с этими двумя элементами используются следующие свойства:</p>
+        <ul>
+            <li><b>width</b><br>
+            Используется для настройки ширины полей;</li>
+            <li><b>color</b><br>
+            Используется для настройки цвета текста;</li>
+            <li><b>background-color</b><br>
+            Используется для изменения цвета позади элементов;</li>
+            <li><b>border</b><br>
+            Используется для настройки внешнего вида границы вокруг группы элементов и/или надписи;</li>
+            <li><b>border-radius</b><br>
+            Используется для создания закругленных углов;</li>
+            <li><b>padding</b><br>
+            Может использоваться для добавления пространства внутри элементов</li>
+        </ul>
+
+        <fieldset>
+            <label for="namee">Имя: </label>
+            <input id="namee" type="text">
+            <label for="surnamee">Фамилия: </label>
+            <input id="surnamee" type="text">
+            <input type="button" value="Отправить">
+            <legend>Рассылка</legend>
+        </fieldset>
+    </div>
+
+    <div class="chapter registration">
+        <h2>Выравнивание элементов формы</h2>
+        <form action="http://localhost" method="post">
+            <div class="field">
+                <label>Логин:</label>
+                <input type="text" name="login" />
+            </div>
+            <div class="field">
+                <label>Пароль:</label>
+                <input type="password" name="password" />
+            </div>
+            <div class="field">
+                <label>Пол: </label>
+                <label>М <input type="radio" value="M" name="gender" checked></label>
+                <label>Ж <input type="radio" value="F" name="gender"></label>
+            </div>
+            <div class="field">
+                <br>
+                <input type="submit" value="OK">
+            </div>
+        </form>
+    </div>
+
+    <div class="chapter">
+        <h2>Стили указателей мыши</h2>
+        <h3>Свойство cursor</h3>
+        <p>Свойство <b>cursor</b> позволяет выбрать вид указателя мыши, который должен быть отображен для пользователя.</p>
+        <p>Наиболее часто используемые значения для данного свойства: <b>auto</b>, <b>crosshair</b>, <b>default</b>,
+        <b>pointer</b>, <b>move</b>, <b>text</b>, <b>wait</b>, <b>help</b>, <b>url("cursor.gif")</b>,</p>
+        <img id="alvin" src="images/alvin_grey.jpg" >
+    </div>
+</body>
+</html>
