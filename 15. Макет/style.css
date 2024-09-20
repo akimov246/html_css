@@ -1,0 +1,100 @@
+body {
+    font-family: -apple-system, Times, "Times New Roman", Georgia, serif;
+    background-color: #EDEDED;
+    margin: 10px;
+}
+
+.chapter {
+    background-color: white;
+    border: 0.5px solid red;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Comic Sans MS";
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: blue;
+}
+
+h3~p b {
+    color: blue;
+}
+
+li b {
+    color: blue;
+}
+
+div.static h2, div.static h3 {
+    background-color: #efefef;
+}
+
+div.static p {
+    width: 450px;
+}
+
+div.relative p.shifted {
+    position: relative;
+    top: 10px;
+    left: 20%;
+}
+
+div.absolute h2 {
+    position: absolute;
+    left: 700px;
+    width: 250px;
+    margin: 0;
+}
+
+div.absolute p {
+    width: 450px;
+}
+
+div.fixed img {
+    width: 200px;
+    position: fixed;
+    top: 40%;
+    left: 70%;
+    z-index: 0;
+}
+
+div.fixed img:hover {
+    width: 0;
+}
+
+div.z-index p {
+    position: relative;
+    z-index: 1;
+}
+
+div.float {
+    height: 315px;
+}
+
+div.float img {
+    float: left;
+    width: 300px;
+    overflow: hidden;
+}
+
+div.clear {
+    height: 290px;
+}
+
+div.clear p {
+    width: 500px;
+}
+
+div.clear ul {
+    float: right;
+    position: relative;
+    bottom: 90px;
+}
