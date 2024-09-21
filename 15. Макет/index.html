@@ -90,5 +90,131 @@
             Элементы могут касаться любой стороны блока.</li>
         </ul>
     </div>
+
+    <div class="chapter columns">
+        <h2>Создание многоколоночных макетов с помощью плавающих элементов</h2>
+        <div class="column1of2">
+            <p>В дизайне многих веб-странице используются многоколоночные макеты. Это достигается путем представления каждой
+            колонки с помощью элемента <b>&ltdiv&gt</b>. Для позиционирования колонок друг рядом с другом используются
+            следующие три свойства CSS.</p>
+        </div>
+        <div class="column2of2">
+            <ul>
+                <li><b>width</b><br>
+                Задает ширину колонок;</li>
+                <li><b>float</b><br>
+                Позиционирует колонки друг рядом с другом;</li>
+                <li><b>margin</b><br>
+                Создает интервал между колонками.</li>
+            </ul>
+        </div>
+
+        <div class="c1of3">
+            Первая колонка
+        </div>
+        <div class="c2of3">
+            Вторая колонка
+        </div>
+        <div class="c3of3">
+            Третья колонка
+        </div>
+    </div>
+
+    <div class="chapter fixed-layout">
+        <h2>Создание фиксированного макета</h2>
+        <p>Для создания фиксированного макета ширина основных блоков на странице, как правило, указывается в пикселях
+        (а иногда и высота тоже).</p>
+        <div class="header">
+            <h1>Логотип</h1>
+            <div class="navigation">
+                <ul>
+                    <li><a href="">Домой</a></li>
+                    <li><a href="">Товары</a></li>
+                    <li><a href="">Услуги</a></li>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="feature">
+                <p>Характеристика</p>
+            </div>
+            <div class="column1">
+                <p>Колонка 1</p>
+            </div>
+            <div class="column2">
+                <p>Колонка 1</p>
+            </div>
+            <div class="column3">
+                <p>Колонка 1</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; Собственность 2024</p>
+        </div>
+    </div>
+
+    <div class="chapter liquid-layout">
+        <h2>Создание «жидкого» макета</h2>
+        <p>В случае с «жидким» макетом для определения ширины каждого блока используются значения в процентах, чтобы
+        страница могла растягиваться в соответствии с изменением размера экрана.</p>
+        <div class="header">
+            <h1>Логотип</h1>
+            <div class="navigation">
+                <ul>
+                    <li><a href="">Домой</a></li>
+                    <li><a href="">Товары</a></li>
+                    <li><a href="">Услуги</a></li>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="feature">
+                <p>Характеристика</p>
+            </div>
+            <div class="column1">
+                <p>Колонка 1</p>
+            </div>
+            <div class="column2">
+                <p>Колонка 1</p>
+            </div>
+            <div class="column3">
+                <p>Колонка 1</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; Собственность 2024</p>
+        </div>
+    </div>
+
+    <div class="test">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+    </div>
+
+    <div class="chapter">
+        <h2>Несколько таблиц стилей</h2>
+        <p>Существует два способа добавления нескольких таблиц стилей на страницу.</p>
+        <p>HTML-страницу можно связать с одной таблицей CSS, содержащей правило <b>@import</b> для импортирования
+        других таблиц стилей.</p>
+        <p>Вы можете использовать в HTML-коде отдельный элемент <b>&ltlink&gt</b> для каждой таблицы стилей.</p>
+    </div>
 </body>
 </html>

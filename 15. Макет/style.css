@@ -63,7 +63,7 @@ div.fixed img {
     position: fixed;
     top: 40%;
     left: 70%;
-    z-index: 0;
+    z-index: 1;
 }
 
 div.fixed img:hover {
@@ -72,7 +72,7 @@ div.fixed img:hover {
 
 div.z-index p {
     position: relative;
-    z-index: 1;
+    z-index: 10;
 }
 
 div.float {
@@ -83,6 +83,7 @@ div.float img {
     float: left;
     width: 300px;
     overflow: hidden;
+    margin: 5px;
 }
 
 div.clear {
@@ -90,11 +91,106 @@ div.clear {
 }
 
 div.clear p {
-    width: 500px;
+    float: left;
+    max-width: 450px;
 }
 
 div.clear ul {
     float: right;
-    position: relative;
-    bottom: 90px;
+    width: auto;
+}
+
+div.columns {
+    height: 250px;
+}
+
+div.columns .column1of2 {
+    float: left;
+    width: 620px;
+    margin: 10px;
+}
+
+div.columns .column2of2 {
+    float: right;
+    width: 670px;
+    margin: 10px;
+}
+
+div.columns .c1of3, div.columns .c2of3, div.columns .c3of3 {
+    float: left;
+    width: auto;
+    margin: 10px;
+}
+
+div.fixed-layout {
+    width: 960px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+div.fixed-layout .content {
+    overflow: auto;
+    height: 100%;
+}
+
+div.fixed-layout .navigation, div.fixed-layout .feature, div.fixed-layout .footer {
+    background-color: #efefef;
+    padding: 10px;
+    margin: 10px;
+}
+
+div.fixed-layout .column1, div.fixed-layout .column2, div.fixed-layout .column3 {
+    background-color: #efefef;
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+
+div.fixed-layout li {
+    display: inline;
+    padding: 5px;
+}
+
+div.liquid-layout {
+    margin: 10px auto;
+    text-align: center;
+    max-width: 90%;
+    min-width: 300px;
+}
+
+div.liquid-layout .content {
+    overflow: auto;
+}
+
+div.liquid-layout .navigation, div.liquid-layout .feature, div.liquid-layout .footer {
+    margin: 1%;
+    background-color: #efefef;
+    padding: 5px;
+}
+
+div.liquid-layout .column1, div.liquid-layout .column2, div.liquid-layout .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    background-color: #efefef;
+}
+
+div.liquid-layout li {
+    display: inline;
+    padding: 5px 0;
+}
+
+div.test {
+    width: 960px;
+    border: 1px solid red;
+    margin: 10px auto;
+    height: 400px;
+}
+
+div.test .col {
+    width: 60px;
+    height: 95%;
+    margin: 10px;
+    background: black;
+    float: left;
 }
