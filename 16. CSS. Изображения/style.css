@@ -1,0 +1,220 @@
+body {
+    font-family: -apple-system, Times, "Times New Roman", Georgia, serif;
+    background-color: #EDEDED;
+    margin: 10px;
+}
+
+.chapter {
+    background-color: white;
+    border: 0.5px solid red;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Comic Sans MS";
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: blue;
+}
+
+h3~p b {
+    color: blue;
+}
+
+li b {
+    color: blue;
+}
+
+div.image_size div.large {
+    text-align: center;
+}
+
+div.image_size div.large img {
+    width: 30%;
+    margin: 1%;
+}
+
+div.image_size div.medium {
+    text-align: center;
+}
+
+div.image_size div.medium img {
+    width: 20%;
+    margin: 1%;
+}
+
+div.image_size div.small {
+    text-align: center;
+}
+
+div.image_size div.small img {
+    width: 10%;
+    margin: 1%;
+}
+
+div.alignment {
+    display: table;
+}
+
+div.alignment img.medium {
+    width: 20%;
+}
+
+div.alignment img.align-left {
+    float: left;
+    margin: 1%;
+}
+
+div.alignment img.align-right {
+    float: right;
+    margin: 1%;
+}
+
+div.align-center img {
+    display: block;
+    margin: 1% auto;
+    width: 20%;
+}
+
+div.align-center figure {
+    text-align: center;
+    margin: 1%;
+}
+
+div.align-center figure img {
+    width: 20%;
+}
+
+div.background-image {
+    background-image: url("images/фон.jpg");
+    background-size: 500px;
+    filter: brightness(115%);
+}
+
+div.repeat-attachment div.repeat {
+    background-image: url("images/star.png");
+    background-repeat: repeat;
+    background-size: 3%;
+    filter: brightness(110%);
+}
+
+div.repeat-attachment li {
+    margin: 1%;
+}
+
+div.repeat-attachment div.repeat-x {
+    background-image: url("images/star.png");
+    background-repeat: repeat-x;
+    background-size: 3.1%;
+    filter: brightness(110%);
+}
+
+div.repeat-attachment div.repeat-y {
+    background-image: url("images/star.png");
+    background-repeat: repeat-y;
+    background-size: 1%;
+    filter: brightness(110%);
+}
+
+div.repeat-attachment div.no-repeat {
+    background-image: url("images/star.png");
+    background-repeat: no-repeat;
+    background-size: 3.1%;
+    filter: brightness(110%);
+}
+
+div.repeat-attachment div.fixed {
+    background-image: url("images/star.png");
+    background-attachment: fixed;
+    background-size: 3.1%;
+    filter: brightness(110%);
+}
+
+div.repeat-attachment div.scroll {
+    background-image: url("images/star.png");
+    background-attachment: scroll;
+    background-size: 3.1%;
+    filter: brightness(110%);
+}
+
+div.mockery {
+    margin: 10px auto;
+    width: 100%;
+    height: 500px;
+    background-image: url("images/глаз.png");
+    background-size: 5%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.mockery p {
+    font-family: 'Rubik One', sans-serif;
+    font-weight: bold;
+    font-size: 130px;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+    margin: 20px auto;
+    color: white;
+    border-radius: 30px;
+    mix-blend-mode: difference;
+    padding: 5px 10px;
+}
+
+div.background-position {
+    background-image: url("images/Татарстан.png");
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+}
+
+div.background-position p {
+    width: 70%;
+}
+
+div.background {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70%),
+                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70%);
+}
+
+div.rollover a.button:link {
+    background-image: url("images/css_sprites.png");
+    display: block;
+    background-repeat: no-repeat;
+}
+
+div.rollover {
+    height: 500px;
+}
+
+div.rollover a.button#twitch:link {
+    width: 225px;
+    height: 225px;
+    background-position: -10px 10px;
+}
+
+div.rollover a.button#twitch:hover {
+    width: 225px;
+    height: 225px;
+    background-position: -10px -255px;
+}
+
+div.rollover a.button#twitch:active {
+    width: 225px;
+    height: 225px;
+    background-position: -10px -500px;
+}
+
+div.gradient {
+    background: linear-gradient(75deg, white, yellow, black);
+}
