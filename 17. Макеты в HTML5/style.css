@@ -1,0 +1,42 @@
+@import url("../templates/chapter.css");
+
+div.old_support div.css fieldset {
+    color: deeppink;
+    border: 1px solid deeppink;
+    width: 30%;
+    border-radius: 5px;
+}
+
+div.old_support div.css legend {
+    color: white;
+    background: deeppink;
+    border-radius: 5px;
+}
+
+div.example {
+    width: 100%;
+    margin: 5px auto;
+}
+
+div.example img {
+    display: block;
+    width: 50%;
+    margin: 5px auto;
+}
+
+div.example div.inner section {
+    width: 40%;
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+
+div.example div.inner aside {
+    width: 40%;
+    float: left;
+    margin: 1%;
+}
+
+div.example div.inner aside img {
+    width: 100%;
+}

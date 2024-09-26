@@ -1,0 +1,32 @@
+body {
+    font-family: -apple-system, Times, "Times New Roman", Georgia, serif;
+    background-color: #EDEDED;
+    margin: 10px;
+}
+
+.chapter {
+    background-color: white;
+    border: 0.5px solid red;
+    padding: 10px 10px 5px 10px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Comic Sans MS";
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: blue;
+}
+
+h3~p b {
+    color: blue;
+}
+
+li b {
+    color: blue;
+}
